@@ -1,0 +1,24 @@
+function checkingAnagram(a,b)
+{
+   var len1 = a.length;
+   var len2 = b.length;
+   if(len1!==len2)
+   {
+     console.log("String is not anagram");
+     return
+    }
+      len str1 = a.split('').sort().join('');
+      len str = b.split('').sort().join('');
+      if(str == str2)
+       {
+          console.log("True");
+       }
+        else
+         {
+           console.log("False");
+         }
+  }
+          
+  str_1 = prompt("Enter the First string");
+  str_2 = prompt("Enter the second string");
+  var s = checkingAnagram(str_1 ,str_2)
