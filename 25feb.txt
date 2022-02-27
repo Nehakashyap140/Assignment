@@ -1,0 +1,18 @@
+function Palindrome()
+{
+  var arrayValues = input.split('');
+  var reverseArrayValues = arrayValues.reverse();
+  var reverseString =reverseArrayValues.join('');
+  if(input==reverseString)
+   {
+     console.log("input is palindrome");
+     }
+      else
+     {
+       console.log("input is not palindrome");
+     }
+}
+Palindrome();
+input = prompt("Enter the no.");
+
+
